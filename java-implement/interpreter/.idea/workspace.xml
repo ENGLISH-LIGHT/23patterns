@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="10a5711e-af26-4e47-a898-0873a207a2dd" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/interpreter/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/interpreter" pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/interpreter">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>interpreter</OriginalElement>
+              <nodes>
+                <node x="365.8141534391534" y="393.0">interpreter.Main</node>
+                <node x="148.02843915343908" y="289.0">interpreter.expressionFactory</node>
+                <node x="159.9999999999999" y="175.0">interpreter.speedExpression</node>
+                <node x="-85.00000000000011" y="175.0">interpreter.scaleExpression</node>
+                <node x="256.8141534391534" y="38.0">interpreter.abstractExpression</node>
+                <node x="362.48082010582004" y="-89.0">interpreter.context</node>
+                <node x="-330.0" y="175.0">interpreter.noteExpression</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="interpreter.abstractExpression" target="interpreter.context">
+                  <point x="0.0" y="-38.5" />
+                  <point x="369.3141534391534" y="13.0" />
+                  <point x="396.3141534391533" y="13.0" />
+                  <point x="-67.66666666666669" y="38.5" />
+                </edge>
+                <edge source="interpreter.Main" target="interpreter.abstractExpression">
+                  <point x="-22.0" y="-27.0" />
+                  <point x="431.8141534391534" y="363.0" />
+                  <point x="473.5284391534391" y="363.0" />
+                  <point x="473.5284391534391" y="155.0" />
+                  <point x="465.74272486772475" y="155.0" />
+                  <point x="96.42857142857144" y="38.5" />
+                </edge>
+                <edge source="interpreter.expressionFactory" target="interpreter.speedExpression">
+                  <point x="-26.25" y="-27.0" />
+                  <point x="279.2784391534391" y="269.0" />
+                  <point x="272.4999999999999" y="269.0" />
+                  <point x="0.0" y="27.0" />
+                </edge>
+                <edge source="interpreter.scaleExpression" target="interpreter.abstractExpression">
+                  <point x="0.0" y="-27.0" />
+                  <point x="27.499999999999886" y="145.0" />
+                  <point x="305.0284391534391" y="145.0" />
+                  <point x="-64.28571428571428" y="38.5" />
+                </edge>
+                <edge source="interpreter.noteExpression" target="interpreter.abstractExpression">
+                  <point x="0.0" y="-27.0" />
+                  <point x="-217.5" y="135.0" />
+                  <point x="272.88558201058186" y="135.0" />
+                  <point x="-96.42857142857144" y="38.5" />
+                </edge>
+                <edge source="interpreter.expressionFactory" target="interpreter.abstractExpression">
+                  <point x="26.25" y="-27.0" />
+                  <point x="331.7784391534391" y="249.0" />
+                  <point x="395.4999999999999" y="249.0" />
+                  <point x="395.4999999999999" y="155.0" />
+                  <point x="369.3141534391534" y="155.0" />
+                  <point x="0.0" y="38.5" />
+                </edge>
+                <edge source="interpreter.expressionFactory" target="interpreter.noteExpression">
+                  <point x="-131.25" y="-27.0" />
+                  <point x="174.27843915343908" y="269.0" />
+                  <point x="-217.5" y="269.0" />
+                  <point x="0.0" y="27.0" />
+                </edge>
+                <edge source="interpreter.Main" target="interpreter.context">
+                  <point x="66.0" y="-27.0" />
+                  <point x="519.8141534391534" y="373.0" />
+                  <point x="525.6190476190476" y="373.0" />
+                  <point x="525.6190476190476" y="13.0" />
+                  <point x="531.6474867724867" y="13.0" />
+                  <point x="67.66666666666669" y="38.5" />
+                </edge>
+                <edge source="interpreter.speedExpression" target="interpreter.abstractExpression">
+                  <point x="0.0" y="-27.0" />
+                  <point x="272.4999999999999" y="155.0" />
+                  <point x="337.1712962962962" y="155.0" />
+                  <point x="-32.14285714285717" y="38.5" />
+                </edge>
+                <edge source="interpreter.expressionFactory" target="interpreter.scaleExpression">
+                  <point x="-78.75" y="-27.0" />
+                  <point x="226.77843915343908" y="259.0" />
+                  <point x="27.499999999999886" y="259.0" />
+                  <point x="0.0" y="27.0" />
+                </edge>
+                <edge source="interpreter.Main" target="interpreter.expressionFactory">
+                  <point x="-66.0" y="-27.0" />
+                  <point x="387.8141534391534" y="373.0" />
+                  <point x="305.5284391534391" y="373.0" />
+                  <point x="0.0" y="27.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.1" x="269.36363636363626" y="196.09090909090912" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="context.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/interpreter/context.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <folding>
+                <element signature="e#125#126#0" expanded="true" />
+                <element signature="e#165#166#0" expanded="true" />
+                <element signature="e#199#200#0" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scaleExpression.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/interpreter/scaleExpression.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="speedExpression.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/interpreter/speedExpression.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="expressionFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/interpreter/expressionFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#193#221#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="abstractExpression.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/interpreter/abstractExpression.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="50" lean-forward="false" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="noteExpression.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/interpreter/noteExpression.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/interpreter/context.java" />
+        <option value="$PROJECT_DIR$/src/interpreter/interpret.java" />
+        <option value="$PROJECT_DIR$/src/interpreter/abstractExpression.java" />
+        <option value="$PROJECT_DIR$/src/interpreter/expressionFactory.java" />
+        <option value="$PROJECT_DIR$/src/interpreter/speedExpression.java" />
+        <option value="$PROJECT_DIR$/src/interpreter/scaleExpression.java" />
+        <option value="$PROJECT_DIR$/src/interpreter/noteExpression.java" />
+        <option value="$PROJECT_DIR$/src/interpreter/Main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="interpreter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interpreter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interpreter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interpreter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interpreter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interpreter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="interpreter" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="interpreter.Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="interpreter" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="10a5711e-af26-4e47-a898-0873a207a2dd" name="Default" comment="" />
+      <created>1514979411590</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1514979411590</updated>
+      <workItem from="1514979423829" duration="4168000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4168000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06718062" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17750533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/interpreter/context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interpreter/abstractExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="50" lean-forward="false" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interpreter/expressionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#193#221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interpreter/scaleExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interpreter/speedExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interpreter/noteExpression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interpreter/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/interpreter">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>interpreter</OriginalElement>
+          <nodes>
+            <node x="365.8141534391534" y="393.0">interpreter.Main</node>
+            <node x="148.02843915343908" y="289.0">interpreter.expressionFactory</node>
+            <node x="159.9999999999999" y="175.0">interpreter.speedExpression</node>
+            <node x="-85.00000000000011" y="175.0">interpreter.scaleExpression</node>
+            <node x="256.8141534391534" y="38.0">interpreter.abstractExpression</node>
+            <node x="362.48082010582004" y="-89.0">interpreter.context</node>
+            <node x="-330.0" y="175.0">interpreter.noteExpression</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="interpreter.abstractExpression" target="interpreter.context">
+              <point x="0.0" y="-38.5" />
+              <point x="369.3141534391534" y="13.0" />
+              <point x="396.3141534391533" y="13.0" />
+              <point x="-67.66666666666669" y="38.5" />
+            </edge>
+            <edge source="interpreter.Main" target="interpreter.abstractExpression">
+              <point x="-22.0" y="-27.0" />
+              <point x="431.8141534391534" y="363.0" />
+              <point x="473.5284391534391" y="363.0" />
+              <point x="473.5284391534391" y="155.0" />
+              <point x="465.74272486772475" y="155.0" />
+              <point x="96.42857142857144" y="38.5" />
+            </edge>
+            <edge source="interpreter.expressionFactory" target="interpreter.speedExpression">
+              <point x="-26.25" y="-27.0" />
+              <point x="279.2784391534391" y="269.0" />
+              <point x="272.4999999999999" y="269.0" />
+              <point x="0.0" y="27.0" />
+            </edge>
+            <edge source="interpreter.scaleExpression" target="interpreter.abstractExpression">
+              <point x="0.0" y="-27.0" />
+              <point x="27.499999999999886" y="145.0" />
+              <point x="305.0284391534391" y="145.0" />
+              <point x="-64.28571428571428" y="38.5" />
+            </edge>
+            <edge source="interpreter.noteExpression" target="interpreter.abstractExpression">
+              <point x="0.0" y="-27.0" />
+              <point x="-217.5" y="135.0" />
+              <point x="272.88558201058186" y="135.0" />
+              <point x="-96.42857142857144" y="38.5" />
+            </edge>
+            <edge source="interpreter.expressionFactory" target="interpreter.abstractExpression">
+              <point x="26.25" y="-27.0" />
+              <point x="331.7784391534391" y="249.0" />
+              <point x="395.4999999999999" y="249.0" />
+              <point x="395.4999999999999" y="155.0" />
+              <point x="369.3141534391534" y="155.0" />
+              <point x="0.0" y="38.5" />
+            </edge>
+            <edge source="interpreter.expressionFactory" target="interpreter.noteExpression">
+              <point x="-131.25" y="-27.0" />
+              <point x="174.27843915343908" y="269.0" />
+              <point x="-217.5" y="269.0" />
+              <point x="0.0" y="27.0" />
+            </edge>
+            <edge source="interpreter.Main" target="interpreter.context">
+              <point x="66.0" y="-27.0" />
+              <point x="519.8141534391534" y="373.0" />
+              <point x="525.6190476190476" y="373.0" />
+              <point x="525.6190476190476" y="13.0" />
+              <point x="531.6474867724867" y="13.0" />
+              <point x="67.66666666666669" y="38.5" />
+            </edge>
+            <edge source="interpreter.speedExpression" target="interpreter.abstractExpression">
+              <point x="0.0" y="-27.0" />
+              <point x="272.4999999999999" y="155.0" />
+              <point x="337.1712962962962" y="155.0" />
+              <point x="-32.14285714285717" y="38.5" />
+            </edge>
+            <edge source="interpreter.expressionFactory" target="interpreter.scaleExpression">
+              <point x="-78.75" y="-27.0" />
+              <point x="226.77843915343908" y="259.0" />
+              <point x="27.499999999999886" y="259.0" />
+              <point x="0.0" y="27.0" />
+            </edge>
+            <edge source="interpreter.Main" target="interpreter.expressionFactory">
+              <point x="-66.0" y="-27.0" />
+              <point x="387.8141534391534" y="373.0" />
+              <point x="305.5284391534391" y="373.0" />
+              <point x="0.0" y="27.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.1" x="269.36363636363626" y="196.09090909090912" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>9.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>interpreter</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
