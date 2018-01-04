@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4f6d9cd7-dfc2-4cbb-bb5f-62b752eb0c93" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/visitor/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/visitor" pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/visitor">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>visitor</OriginalElement>
+              <nodes>
+                <node x="265.75" y="187.0">visitor.visitor</node>
+                <node x="140.0" y="481.0">visitor.objectStructure</node>
+                <node x="87.43428571428564" y="324.0">visitor.element</node>
+                <node x="565.4342857142857" y="324.0">visitor.visitorB</node>
+                <node x="309.4342857142857" y="324.0">visitor.visitorA</node>
+                <node x="44.851904761904905" y="0.0">visitor.elementB</node>
+                <node x="624.1852380952382" y="0.0">visitor.elementA</node>
+                <node x="270.85" y="710.0">visitor.Main</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="visitor.visitorB" target="visitor.elementB">
+                  <point x="0.0" y="-38.5" />
+                  <point x="683.4342857142857" y="304.0" />
+                  <point x="713.6852380952382" y="304.0" />
+                  <point x="713.6852380952382" y="97.0" />
+                  <point x="234.68523809523816" y="97.0" />
+                  <point x="89.33333333333326" y="38.5" />
+                </edge>
+                <edge source="visitor.visitorA" target="visitor.elementA">
+                  <point x="78.66666666666669" y="-38.5" />
+                  <point x="506.1009523809523" y="304.0" />
+                  <point x="576.8828571428572" y="304.0" />
+                  <point x="576.8828571428572" y="167.0" />
+                  <point x="702.3519047619048" y="167.0" />
+                  <point x="-22.33333333333337" y="38.5" />
+                </edge>
+                <edge source="visitor.visitorA" target="visitor.elementB">
+                  <point x="-78.66666666666669" y="-38.5" />
+                  <point x="348.76761904761895" y="284.0" />
+                  <point x="254.75" y="284.0" />
+                  <point x="254.75" y="127.0" />
+                  <point x="167.68523809523816" y="127.0" />
+                  <point x="22.333333333333258" y="38.5" />
+                </edge>
+                <edge source="visitor.visitor" target="visitor.elementB">
+                  <point x="-88.5" y="-38.5" />
+                  <point x="295.25" y="117.0" />
+                  <point x="190.01857142857153" y="117.0" />
+                  <point x="44.66666666666663" y="38.5" />
+                </edge>
+                <edge source="visitor.Main" target="visitor.objectStructure">
+                  <point x="-44.0" y="-27.0" />
+                  <point x="314.85" y="680.0" />
+                  <point x="191.0" y="680.0" />
+                  <point x="-51.0" y="84.5" />
+                </edge>
+                <edge source="visitor.element" target="visitor.visitor">
+                  <point x="67.0" y="-38.5" />
+                  <point x="254.93428571428564" y="294.0" />
+                  <point x="295.25" y="294.0" />
+                  <point x="-88.5" y="38.5" />
+                </edge>
+                <edge source="visitor.visitorB" target="visitor.elementA">
+                  <point x="78.66666666666671" y="-38.5" />
+                  <point x="762.1009523809523" y="304.0" />
+                  <point x="745.2509523809526" y="304.0" />
+                  <point x="745.2509523809526" y="167.0" />
+                  <point x="724.6852380952382" y="167.0" />
+                  <point x="0.0" y="38.5" />
+                </edge>
+                <edge source="visitor.visitorA" target="visitor.visitor">
+                  <point x="0.0" y="-38.5" />
+                  <point x="427.4342857142857" y="304.0" />
+                  <point x="413.25" y="304.0" />
+                  <point x="29.5" y="38.5" />
+                </edge>
+                <edge source="visitor.visitorB" target="visitor.visitor">
+                  <point x="-78.66666666666669" y="-38.5" />
+                  <point x="604.767619047619" y="294.0" />
+                  <point x="472.25" y="294.0" />
+                  <point x="88.5" y="38.5" />
+                </edge>
+                <edge source="visitor.objectStructure" target="visitor.visitor">
+                  <point x="30.600000000000023" y="-84.5" />
+                  <point x="272.6" y="431.0" />
+                  <point x="298.9342857142857" y="431.0" />
+                  <point x="298.9342857142857" y="304.0" />
+                  <point x="354.25" y="304.0" />
+                  <point x="-29.5" y="38.5" />
+                </edge>
+                <edge source="visitor.objectStructure" target="visitor.element">
+                  <point x="-10.200000000000045" y="-84.5" />
+                  <point x="231.79999999999995" y="421.0" />
+                  <point x="187.93428571428564" y="421.0" />
+                  <point x="0.0" y="38.5" />
+                </edge>
+                <edge source="visitor.visitor" target="visitor.elementA">
+                  <point x="29.5" y="-38.5" />
+                  <point x="413.25" y="147.0" />
+                  <point x="657.6852380952382" y="147.0" />
+                  <point x="-67.0" y="38.5" />
+                </edge>
+                <edge source="visitor.Main" target="visitor.visitorB">
+                  <point x="44.0" y="-27.0" />
+                  <point x="402.85" y="680.0" />
+                  <point x="728.9661904761906" y="680.0" />
+                  <point x="728.9661904761906" y="431.0" />
+                  <point x="683.4342857142857" y="431.0" />
+                  <point x="0.0" y="38.5" />
+                </edge>
+                <edge source="visitor.Main" target="visitor.visitorA">
+                  <point x="14.666666666666686" y="-27.0" />
+                  <point x="373.51666666666665" y="670.0" />
+                  <point x="472.9661904761906" y="670.0" />
+                  <point x="472.9661904761906" y="431.0" />
+                  <point x="427.4342857142857" y="431.0" />
+                  <point x="0.0" y="38.5" />
+                </edge>
+                <edge source="visitor.elementA" target="visitor.visitor">
+                  <point x="-44.66666666666663" y="38.5" />
+                  <point x="680.0185714285716" y="157.0" />
+                  <point x="472.25" y="157.0" />
+                  <point x="88.5" y="-38.5" />
+                </edge>
+                <edge source="visitor.elementB" target="visitor.visitor">
+                  <point x="67.0" y="38.5" />
+                  <point x="212.3519047619049" y="107.0" />
+                  <point x="354.25" y="107.0" />
+                  <point x="-29.5" y="-38.5" />
+                </edge>
+                <edge source="visitor.elementB" target="visitor.element">
+                  <point x="0.0" y="38.5" />
+                  <point x="145.3519047619049" y="304.0" />
+                  <point x="120.93428571428564" y="304.0" />
+                  <point x="-67.0" y="-38.5" />
+                </edge>
+                <edge source="visitor.Main" target="visitor.elementB">
+                  <point x="-73.33333333333326" y="-27.0" />
+                  <point x="285.51666666666677" y="690.0" />
+                  <point x="26.0" y="690.0" />
+                  <point x="26.0" y="137.0" />
+                  <point x="56.01857142857159" y="137.0" />
+                  <point x="-89.33333333333331" y="38.5" />
+                </edge>
+                <edge source="visitor.objectStructure" target="visitor.elementA">
+                  <point x="51.0" y="-84.5" />
+                  <point x="293.0" y="441.0" />
+                  <point x="841.6842857142856" y="441.0" />
+                  <point x="841.6842857142856" y="157.0" />
+                  <point x="747.0185714285715" y="157.0" />
+                  <point x="22.333333333333258" y="38.5" />
+                </edge>
+                <edge source="visitor.Main" target="visitor.elementA">
+                  <point x="73.33333333333337" y="-27.0" />
+                  <point x="432.1833333333334" y="690.0" />
+                  <point x="874.6842857142856" y="690.0" />
+                  <point x="874.6842857142856" y="127.0" />
+                  <point x="814.0185714285715" y="127.0" />
+                  <point x="89.33333333333326" y="38.5" />
+                </edge>
+                <edge source="visitor.elementA" target="visitor.element">
+                  <point x="-89.33333333333331" y="38.5" />
+                  <point x="635.351904761905" y="137.0" />
+                  <point x="159.93428571428564" y="137.0" />
+                  <point x="159.93428571428564" y="304.0" />
+                  <point x="187.93428571428564" y="304.0" />
+                  <point x="0.0" y="-38.5" />
+                </edge>
+                <edge source="visitor.objectStructure" target="visitor.elementB">
+                  <point x="-91.80000000000007" y="-84.5" />
+                  <point x="150.19999999999993" y="461.0" />
+                  <point x="37.0" y="461.0" />
+                  <point x="37.0" y="147.0" />
+                  <point x="78.3519047619049" y="147.0" />
+                  <point x="-67.0" y="38.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.1" x="390.4545454545454" y="385.7272727272727" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="element.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/visitor/element.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="visitor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/visitor/visitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="objectStructure.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/visitor/objectStructure.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#147#156#0" expanded="true" />
+                <element signature="e#208#218#0" expanded="true" />
+                <element signature="e#270#280#0" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Preconditions.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/jdk/internal/util/Preconditions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="elementA.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/visitor/elementA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+              <folding>
+                <element signature="e#117#118#0" expanded="true" />
+                <element signature="e#149#150#0" expanded="true" />
+                <element signature="e#205#206#0" expanded="true" />
+                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="elementB.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/visitor/elementB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+              <folding>
+                <element signature="e#118#119#0" expanded="true" />
+                <element signature="e#150#151#0" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#288#289#0" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="visitorA.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/visitor/visitorA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding>
+                <element signature="e#118#119#0" expanded="true" />
+                <element signature="e#150#151#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="visitorB.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/visitor/visitorB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+              <folding>
+                <element signature="e#117#118#0" expanded="true" />
+                <element signature="e#149#150#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/visitor/visitor.java" />
+        <option value="$PROJECT_DIR$/src/visitor/element.java" />
+        <option value="$PROJECT_DIR$/src/visitor/elementA.java" />
+        <option value="$PROJECT_DIR$/src/visitor/elementB.java" />
+        <option value="$PROJECT_DIR$/src/visitor/visitorA.java" />
+        <option value="$PROJECT_DIR$/src/visitor/visitorB.java" />
+        <option value="$PROJECT_DIR$/src/visitor/objectStructure.java" />
+        <option value="$PROJECT_DIR$/src/visitor/Main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="visitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="visitor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="visitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="visitor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="visitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="visitor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="visitor" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="visitor.Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="visitor" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f6d9cd7-dfc2-4cbb-bb5f-62b752eb0c93" name="Default" comment="" />
+      <created>1515066985193</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1515066985193</updated>
+      <workItem from="1515066994724" duration="2954000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2954000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38453275" sideWeight="0.50416666" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38453275" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32116005" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0026041667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29215896" sideWeight="0.49791667" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/visitor/elementB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="e#118#119#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/visitor/visitorB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/visitor/elementA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/visitor/visitorA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#118#119#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/visitor/visitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/visitor/element.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.1/lib/src.zip!/java.base/jdk/internal/util/Preconditions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/visitor/objectStructure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#147#156#0" expanded="true" />
+            <element signature="e#208#218#0" expanded="true" />
+            <element signature="e#270#280#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/visitor/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/visitor">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>visitor</OriginalElement>
+          <nodes>
+            <node x="265.75" y="187.0">visitor.visitor</node>
+            <node x="140.0" y="481.0">visitor.objectStructure</node>
+            <node x="87.43428571428564" y="324.0">visitor.element</node>
+            <node x="565.4342857142857" y="324.0">visitor.visitorB</node>
+            <node x="309.4342857142857" y="324.0">visitor.visitorA</node>
+            <node x="44.851904761904905" y="0.0">visitor.elementB</node>
+            <node x="624.1852380952382" y="0.0">visitor.elementA</node>
+            <node x="270.85" y="710.0">visitor.Main</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="visitor.visitorB" target="visitor.elementB">
+              <point x="0.0" y="-38.5" />
+              <point x="683.4342857142857" y="304.0" />
+              <point x="713.6852380952382" y="304.0" />
+              <point x="713.6852380952382" y="97.0" />
+              <point x="234.68523809523816" y="97.0" />
+              <point x="89.33333333333326" y="38.5" />
+            </edge>
+            <edge source="visitor.visitorA" target="visitor.elementA">
+              <point x="78.66666666666669" y="-38.5" />
+              <point x="506.1009523809523" y="304.0" />
+              <point x="576.8828571428572" y="304.0" />
+              <point x="576.8828571428572" y="167.0" />
+              <point x="702.3519047619048" y="167.0" />
+              <point x="-22.33333333333337" y="38.5" />
+            </edge>
+            <edge source="visitor.visitorA" target="visitor.elementB">
+              <point x="-78.66666666666669" y="-38.5" />
+              <point x="348.76761904761895" y="284.0" />
+              <point x="254.75" y="284.0" />
+              <point x="254.75" y="127.0" />
+              <point x="167.68523809523816" y="127.0" />
+              <point x="22.333333333333258" y="38.5" />
+            </edge>
+            <edge source="visitor.visitor" target="visitor.elementB">
+              <point x="-88.5" y="-38.5" />
+              <point x="295.25" y="117.0" />
+              <point x="190.01857142857153" y="117.0" />
+              <point x="44.66666666666663" y="38.5" />
+            </edge>
+            <edge source="visitor.Main" target="visitor.objectStructure">
+              <point x="-44.0" y="-27.0" />
+              <point x="314.85" y="680.0" />
+              <point x="191.0" y="680.0" />
+              <point x="-51.0" y="84.5" />
+            </edge>
+            <edge source="visitor.element" target="visitor.visitor">
+              <point x="67.0" y="-38.5" />
+              <point x="254.93428571428564" y="294.0" />
+              <point x="295.25" y="294.0" />
+              <point x="-88.5" y="38.5" />
+            </edge>
+            <edge source="visitor.visitorB" target="visitor.elementA">
+              <point x="78.66666666666671" y="-38.5" />
+              <point x="762.1009523809523" y="304.0" />
+              <point x="745.2509523809526" y="304.0" />
+              <point x="745.2509523809526" y="167.0" />
+              <point x="724.6852380952382" y="167.0" />
+              <point x="0.0" y="38.5" />
+            </edge>
+            <edge source="visitor.visitorA" target="visitor.visitor">
+              <point x="0.0" y="-38.5" />
+              <point x="427.4342857142857" y="304.0" />
+              <point x="413.25" y="304.0" />
+              <point x="29.5" y="38.5" />
+            </edge>
+            <edge source="visitor.visitorB" target="visitor.visitor">
+              <point x="-78.66666666666669" y="-38.5" />
+              <point x="604.767619047619" y="294.0" />
+              <point x="472.25" y="294.0" />
+              <point x="88.5" y="38.5" />
+            </edge>
+            <edge source="visitor.objectStructure" target="visitor.visitor">
+              <point x="30.600000000000023" y="-84.5" />
+              <point x="272.6" y="431.0" />
+              <point x="298.9342857142857" y="431.0" />
+              <point x="298.9342857142857" y="304.0" />
+              <point x="354.25" y="304.0" />
+              <point x="-29.5" y="38.5" />
+            </edge>
+            <edge source="visitor.objectStructure" target="visitor.element">
+              <point x="-10.200000000000045" y="-84.5" />
+              <point x="231.79999999999995" y="421.0" />
+              <point x="187.93428571428564" y="421.0" />
+              <point x="0.0" y="38.5" />
+            </edge>
+            <edge source="visitor.visitor" target="visitor.elementA">
+              <point x="29.5" y="-38.5" />
+              <point x="413.25" y="147.0" />
+              <point x="657.6852380952382" y="147.0" />
+              <point x="-67.0" y="38.5" />
+            </edge>
+            <edge source="visitor.Main" target="visitor.visitorB">
+              <point x="44.0" y="-27.0" />
+              <point x="402.85" y="680.0" />
+              <point x="728.9661904761906" y="680.0" />
+              <point x="728.9661904761906" y="431.0" />
+              <point x="683.4342857142857" y="431.0" />
+              <point x="0.0" y="38.5" />
+            </edge>
+            <edge source="visitor.Main" target="visitor.visitorA">
+              <point x="14.666666666666686" y="-27.0" />
+              <point x="373.51666666666665" y="670.0" />
+              <point x="472.9661904761906" y="670.0" />
+              <point x="472.9661904761906" y="431.0" />
+              <point x="427.4342857142857" y="431.0" />
+              <point x="0.0" y="38.5" />
+            </edge>
+            <edge source="visitor.elementA" target="visitor.visitor">
+              <point x="-44.66666666666663" y="38.5" />
+              <point x="680.0185714285716" y="157.0" />
+              <point x="472.25" y="157.0" />
+              <point x="88.5" y="-38.5" />
+            </edge>
+            <edge source="visitor.elementB" target="visitor.visitor">
+              <point x="67.0" y="38.5" />
+              <point x="212.3519047619049" y="107.0" />
+              <point x="354.25" y="107.0" />
+              <point x="-29.5" y="-38.5" />
+            </edge>
+            <edge source="visitor.elementB" target="visitor.element">
+              <point x="0.0" y="38.5" />
+              <point x="145.3519047619049" y="304.0" />
+              <point x="120.93428571428564" y="304.0" />
+              <point x="-67.0" y="-38.5" />
+            </edge>
+            <edge source="visitor.Main" target="visitor.elementB">
+              <point x="-73.33333333333326" y="-27.0" />
+              <point x="285.51666666666677" y="690.0" />
+              <point x="26.0" y="690.0" />
+              <point x="26.0" y="137.0" />
+              <point x="56.01857142857159" y="137.0" />
+              <point x="-89.33333333333331" y="38.5" />
+            </edge>
+            <edge source="visitor.objectStructure" target="visitor.elementA">
+              <point x="51.0" y="-84.5" />
+              <point x="293.0" y="441.0" />
+              <point x="841.6842857142856" y="441.0" />
+              <point x="841.6842857142856" y="157.0" />
+              <point x="747.0185714285715" y="157.0" />
+              <point x="22.333333333333258" y="38.5" />
+            </edge>
+            <edge source="visitor.Main" target="visitor.elementA">
+              <point x="73.33333333333337" y="-27.0" />
+              <point x="432.1833333333334" y="690.0" />
+              <point x="874.6842857142856" y="690.0" />
+              <point x="874.6842857142856" y="127.0" />
+              <point x="814.0185714285715" y="127.0" />
+              <point x="89.33333333333326" y="38.5" />
+            </edge>
+            <edge source="visitor.elementA" target="visitor.element">
+              <point x="-89.33333333333331" y="38.5" />
+              <point x="635.351904761905" y="137.0" />
+              <point x="159.93428571428564" y="137.0" />
+              <point x="159.93428571428564" y="304.0" />
+              <point x="187.93428571428564" y="304.0" />
+              <point x="0.0" y="-38.5" />
+            </edge>
+            <edge source="visitor.objectStructure" target="visitor.elementB">
+              <point x="-91.80000000000007" y="-84.5" />
+              <point x="150.19999999999993" y="461.0" />
+              <point x="37.0" y="461.0" />
+              <point x="37.0" y="147.0" />
+              <point x="78.3519047619049" y="147.0" />
+              <point x="-67.0" y="38.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.1" x="390.4545454545454" y="385.7272727272727" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
