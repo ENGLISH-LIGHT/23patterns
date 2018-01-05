@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="834e879a-9530-44ee-8eb7-058537d22665" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/interceptingFilter/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/interceptingFilter" pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/interceptingFilter">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>interceptingFilter</OriginalElement>
+              <nodes>
+                <node x="66.55911654135343" y="381.0">interceptingFilter.client</node>
+                <node x="331.3996867167921" y="127.0">interceptingFilter.debugFilter</node>
+                <node x="198.27468671679208" y="518.0">interceptingFilter.Main</node>
+                <node x="535.3996867167921" y="127.0">interceptingFilter.authenticationFilter</node>
+                <node x="217.77897869674192" y="0.0">interceptingFilter.filter</node>
+                <node x="126.27468671679202" y="104.0">interceptingFilter.filterChain</node>
+                <node x="108.41666666666669" y="254.0">interceptingFilter.filterManger</node>
+                <node x="13.778978696741888" y="0.0">interceptingFilter.target</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="interceptingFilter.filterManger" target="interceptingFilter.filterChain">
+                  <point x="-26.375" y="-38.5" />
+                  <point x="187.54166666666669" y="229.0" />
+                  <point x="172.27468671679202" y="229.0" />
+                  <point x="-46.0" y="50.0" />
+                </edge>
+                <edge source="interceptingFilter.debugFilter" target="interceptingFilter.filter">
+                  <point x="0.0" y="-27.0" />
+                  <point x="423.3996867167921" y="84.0" />
+                  <point x="355.778978696742" y="84.0" />
+                  <point x="46.00000000000006" y="27.0" />
+                </edge>
+                <edge source="interceptingFilter.Main" target="interceptingFilter.debugFilter">
+                  <point x="50.28571428571428" y="-27.0" />
+                  <point x="336.56040100250635" y="488.0" />
+                  <point x="423.3996867167921" y="488.0" />
+                  <point x="0.0" y="27.0" />
+                </edge>
+                <edge source="interceptingFilter.filterChain" target="interceptingFilter.target">
+                  <point x="-36.80000000000004" y="-50.0" />
+                  <point x="181.47468671679198" y="84.0" />
+                  <point x="174.7789786967419" y="84.0" />
+                  <point x="69.0" y="27.0" />
+                </edge>
+                <edge source="interceptingFilter.Main" target="interceptingFilter.target">
+                  <point x="-75.42857142857147" y="-27.0" />
+                  <point x="210.84611528822057" y="498.0" />
+                  <point x="26.0" y="498.0" />
+                  <point x="26.0" y="84.0" />
+                  <point x="36.77897869674189" y="84.0" />
+                  <point x="-69.0" y="27.0" />
+                </edge>
+                <edge source="interceptingFilter.filterManger" target="interceptingFilter.filter">
+                  <point x="79.125" y="-38.5" />
+                  <point x="293.0416666666667" y="229.0" />
+                  <point x="320.774686716792" y="229.0" />
+                  <point x="320.774686716792" y="84.0" />
+                  <point x="325.11231203007526" y="84.0" />
+                  <point x="15.333333333333314" y="27.0" />
+                </edge>
+                <edge source="interceptingFilter.Main" target="interceptingFilter.filterManger">
+                  <point x="-50.285714285714334" y="-27.0" />
+                  <point x="235.98897243107774" y="488.0" />
+                  <point x="55.99661654135343" y="488.0" />
+                  <point x="55.99661654135343" y="351.0" />
+                  <point x="134.79166666666669" y="351.0" />
+                  <point x="-79.125" y="38.5" />
+                </edge>
+                <edge source="interceptingFilter.filterManger" target="interceptingFilter.target">
+                  <point x="-79.125" y="-38.5" />
+                  <point x="134.79166666666669" y="229.0" />
+                  <point x="89.94244987468682" y="229.0" />
+                  <point x="89.94244987468682" y="84.0" />
+                  <point x="82.77897869674189" y="84.0" />
+                  <point x="-23.0" y="27.0" />
+                </edge>
+                <edge source="interceptingFilter.filterChain" target="interceptingFilter.filter">
+                  <point x="73.6" y="-50.0" />
+                  <point x="291.874686716792" y="84.0" />
+                  <point x="294.44564536340863" y="84.0" />
+                  <point x="-15.333333333333314" y="27.0" />
+                </edge>
+                <edge source="interceptingFilter.Main" target="interceptingFilter.client">
+                  <point x="-5.6843418860808015E-14" y="-27.0" />
+                  <point x="286.274686716792" y="498.0" />
+                  <point x="270.55911654135343" y="498.0" />
+                  <point x="68.0" y="38.5" />
+                </edge>
+                <edge source="interceptingFilter.authenticationFilter" target="interceptingFilter.filter">
+                  <point x="0.0" y="-27.0" />
+                  <point x="627.3996867167921" y="74.0" />
+                  <point x="386.44564536340863" y="74.0" />
+                  <point x="76.66666666666669" y="27.0" />
+                </edge>
+                <edge source="interceptingFilter.Main" target="interceptingFilter.authenticationFilter">
+                  <point x="75.42857142857144" y="-27.0" />
+                  <point x="361.7032581453635" y="498.0" />
+                  <point x="627.3996867167921" y="498.0" />
+                  <point x="0.0" y="27.0" />
+                </edge>
+                <edge source="interceptingFilter.client" target="interceptingFilter.filterManger">
+                  <point x="-68.0" y="-38.5" />
+                  <point x="134.55911654135343" y="361.0" />
+                  <point x="187.54166666666669" y="361.0" />
+                  <point x="-26.375" y="38.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.5" x="475.0" y="289.6666666666667" />
+              <SelectedNodes>
+                <node>interceptingFilter.client</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Methods</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/interceptingFilter/filter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="authenticationFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/interceptingFilter/authenticationFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="e#136#137#0" expanded="true" />
+                <element signature="e#208#209#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filterChain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/interceptingFilter/filterChain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#155#163#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
+                <element signature="e#260#261#0" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="target.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/interceptingFilter/target.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="51" lean-forward="false" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+              <folding>
+                <element signature="e#90#91#0" expanded="true" />
+                <element signature="e#157#158#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filterManger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/interceptingFilter/filterManger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+              <folding>
+                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#281#282#0" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
+                <element signature="e#372#373#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/interceptingFilter/client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="e#130#131#0" expanded="true" />
+                <element signature="e#167#168#0" expanded="true" />
+                <element signature="e#257#258#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="debugFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/interceptingFilter/debugFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+              <folding>
+                <element signature="e#127#128#0" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/interceptingFilter/filter.java" />
+        <option value="$PROJECT_DIR$/src/interceptingFilter/authenticationFilter.java" />
+        <option value="$PROJECT_DIR$/src/interceptingFilter/debugFilter.java" />
+        <option value="$PROJECT_DIR$/src/interceptingFilter/filterChain.java" />
+        <option value="$PROJECT_DIR$/src/interceptingFilter/target.java" />
+        <option value="$PROJECT_DIR$/src/interceptingFilter/filterManger.java" />
+        <option value="$PROJECT_DIR$/src/interceptingFilter/client.java" />
+        <option value="$PROJECT_DIR$/src/interceptingFilter/Main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="interceptingFilter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interceptingFilter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interceptingFilter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interceptingFilter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="interceptingFilter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interceptingFilter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptingFilter" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="interceptingFilter.Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="interceptingFilter" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="834e879a-9530-44ee-8eb7-058537d22665" name="Default" comment="" />
+      <created>1515153847491</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1515153847491</updated>
+      <workItem from="1515153852404" duration="1551000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1551000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3265306" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1296875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/interceptingFilter/filter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interceptingFilter/authenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interceptingFilter/debugFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interceptingFilter/filterChain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#155#163#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interceptingFilter/target.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="51" lean-forward="false" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+          <folding>
+            <element signature="e#90#91#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interceptingFilter/filterManger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interceptingFilter/client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interceptingFilter/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/interceptingFilter">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>interceptingFilter</OriginalElement>
+          <nodes>
+            <node x="66.55911654135343" y="381.0">interceptingFilter.client</node>
+            <node x="331.3996867167921" y="127.0">interceptingFilter.debugFilter</node>
+            <node x="198.27468671679208" y="518.0">interceptingFilter.Main</node>
+            <node x="535.3996867167921" y="127.0">interceptingFilter.authenticationFilter</node>
+            <node x="217.77897869674192" y="0.0">interceptingFilter.filter</node>
+            <node x="126.27468671679202" y="104.0">interceptingFilter.filterChain</node>
+            <node x="108.41666666666669" y="254.0">interceptingFilter.filterManger</node>
+            <node x="13.778978696741888" y="0.0">interceptingFilter.target</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="interceptingFilter.filterManger" target="interceptingFilter.filterChain">
+              <point x="-26.375" y="-38.5" />
+              <point x="187.54166666666669" y="229.0" />
+              <point x="172.27468671679202" y="229.0" />
+              <point x="-46.0" y="50.0" />
+            </edge>
+            <edge source="interceptingFilter.debugFilter" target="interceptingFilter.filter">
+              <point x="0.0" y="-27.0" />
+              <point x="423.3996867167921" y="84.0" />
+              <point x="355.778978696742" y="84.0" />
+              <point x="46.00000000000006" y="27.0" />
+            </edge>
+            <edge source="interceptingFilter.Main" target="interceptingFilter.debugFilter">
+              <point x="50.28571428571428" y="-27.0" />
+              <point x="336.56040100250635" y="488.0" />
+              <point x="423.3996867167921" y="488.0" />
+              <point x="0.0" y="27.0" />
+            </edge>
+            <edge source="interceptingFilter.filterChain" target="interceptingFilter.target">
+              <point x="-36.80000000000004" y="-50.0" />
+              <point x="181.47468671679198" y="84.0" />
+              <point x="174.7789786967419" y="84.0" />
+              <point x="69.0" y="27.0" />
+            </edge>
+            <edge source="interceptingFilter.Main" target="interceptingFilter.target">
+              <point x="-75.42857142857147" y="-27.0" />
+              <point x="210.84611528822057" y="498.0" />
+              <point x="26.0" y="498.0" />
+              <point x="26.0" y="84.0" />
+              <point x="36.77897869674189" y="84.0" />
+              <point x="-69.0" y="27.0" />
+            </edge>
+            <edge source="interceptingFilter.filterManger" target="interceptingFilter.filter">
+              <point x="79.125" y="-38.5" />
+              <point x="293.0416666666667" y="229.0" />
+              <point x="320.774686716792" y="229.0" />
+              <point x="320.774686716792" y="84.0" />
+              <point x="325.11231203007526" y="84.0" />
+              <point x="15.333333333333314" y="27.0" />
+            </edge>
+            <edge source="interceptingFilter.Main" target="interceptingFilter.filterManger">
+              <point x="-50.285714285714334" y="-27.0" />
+              <point x="235.98897243107774" y="488.0" />
+              <point x="55.99661654135343" y="488.0" />
+              <point x="55.99661654135343" y="351.0" />
+              <point x="134.79166666666669" y="351.0" />
+              <point x="-79.125" y="38.5" />
+            </edge>
+            <edge source="interceptingFilter.filterManger" target="interceptingFilter.target">
+              <point x="-79.125" y="-38.5" />
+              <point x="134.79166666666669" y="229.0" />
+              <point x="89.94244987468682" y="229.0" />
+              <point x="89.94244987468682" y="84.0" />
+              <point x="82.77897869674189" y="84.0" />
+              <point x="-23.0" y="27.0" />
+            </edge>
+            <edge source="interceptingFilter.filterChain" target="interceptingFilter.filter">
+              <point x="73.6" y="-50.0" />
+              <point x="291.874686716792" y="84.0" />
+              <point x="294.44564536340863" y="84.0" />
+              <point x="-15.333333333333314" y="27.0" />
+            </edge>
+            <edge source="interceptingFilter.Main" target="interceptingFilter.client">
+              <point x="-5.6843418860808015E-14" y="-27.0" />
+              <point x="286.274686716792" y="498.0" />
+              <point x="270.55911654135343" y="498.0" />
+              <point x="68.0" y="38.5" />
+            </edge>
+            <edge source="interceptingFilter.authenticationFilter" target="interceptingFilter.filter">
+              <point x="0.0" y="-27.0" />
+              <point x="627.3996867167921" y="74.0" />
+              <point x="386.44564536340863" y="74.0" />
+              <point x="76.66666666666669" y="27.0" />
+            </edge>
+            <edge source="interceptingFilter.Main" target="interceptingFilter.authenticationFilter">
+              <point x="75.42857142857144" y="-27.0" />
+              <point x="361.7032581453635" y="498.0" />
+              <point x="627.3996867167921" y="498.0" />
+              <point x="0.0" y="27.0" />
+            </edge>
+            <edge source="interceptingFilter.client" target="interceptingFilter.filterManger">
+              <point x="-68.0" y="-38.5" />
+              <point x="134.55911654135343" y="361.0" />
+              <point x="187.54166666666669" y="361.0" />
+              <point x="-26.375" y="38.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.5" x="475.0" y="289.6666666666667" />
+          <SelectedNodes>
+            <node>interceptingFilter.client</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
